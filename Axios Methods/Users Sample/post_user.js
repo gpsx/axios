@@ -7,7 +7,7 @@ async function makePostRequest() {
         first_name: 'Fred',
         last_name: 'Blair',
         email: 'freddyb34@gmail.com'
-      }
+      } 
 
     let res = await axios.post('http://localhost:3000/users/', params);
 
